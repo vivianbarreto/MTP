@@ -3,16 +3,14 @@
 
 int main()
 {
-
-    double base,numero;
-    double logbase(double numero);
+    double base,numero,logaritmo;
+    double log10(double numero);
     printf("\nDigite um numero:\n");
     scanf("%lf", &numero);
-    printf("\n O valor da base e 10. Digite 10:\n");
+    printf("\nO valor da base e:\n");
     scanf("%lf",&base);
-    log10 numero = (log10(numero)/ logbase())
-
-    printf("\n O valor do lado a do triangulo e: %lf", a);
+    logaritmo = log(numero)/log(base);
+    printf("\nO valor do logaritmo  e: %lf", logaritmo);
  return 0;
 }
 
