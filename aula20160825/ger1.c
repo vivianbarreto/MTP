@@ -10,7 +10,8 @@ int main() {
         break;
     }
     }
-    if(i==numero) printf("Primo!!!\n");
+    if(i==numero)
+        printf("Primo!!!\n");
     return 0;
     }
 

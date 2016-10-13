@@ -5,7 +5,7 @@
 int main()
 {
     srand(time(0));
-    int i,v,soma,soma_dos_dados;
+    int i,v,soma,soma_dos_dados = 0;
     printf("Sorteio de tres numeros: \n");
     for(i=0;i<3;i++){
         v = rand()%6+1;
