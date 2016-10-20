@@ -10,7 +10,7 @@ int main()
     for(i=0;i<3;i++){
         v = rand()%6+1;
         printf("\n O numero e: %d \n",v);
-        soma_dos_dados = soma_dos_dados+v;
+        soma_dos_dados = soma_dos_dados + v;
     }
     printf("A soma e: %d ",soma_dos_dados);
     if(soma_dos_dados == 7 || soma_dos_dados == 11)

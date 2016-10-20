@@ -2,21 +2,21 @@
 
 int main()
 {
-     int numero, i;
+     int num, j;
      int perfeito = 0;
      printf("\nDigite um numero: \n\n");
-     scanf("%d",&numero);
+     scanf("%d",&num);
      printf("\n");
      printf("\nDivisores: ");
-     for(i = numero-1; i != 0; i--)
+     for(j = num-1; j != 0; j--)
         {
-            if(numero%i == 0)
+            if(num%j == 0)
             {
-                printf("%d, ",i);
-                perfeito = perfeito + i;
+                printf("%d",j);
+                perfeito = perfeito + j;
             }
         }
-        if(perfeito == numero)
+        if(perfeito == num)
             printf("\n\nPerfeito\n");
     return 0;
 }

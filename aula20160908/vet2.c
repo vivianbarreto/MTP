@@ -4,17 +4,17 @@
 
 int main()
 {
-    int vetor[100], i, n;
+    int vetor[100], j, n;
     printf("\nDigite o comprimento da sequencia: ");
     scanf("%d", &n);
     printf("\nDigite uma sequencia com %d numeros inteiros: \n", n);
-    for( i = 0; i < n; i ++)
+    for( j = 0; j < n; j ++)
     {
-        scanf("\n%d", &vetor[i]);
+        scanf("\n%d", &vetor[j]);
     }
-    for ( i = n-1; i >= 0; i --)
+    for ( j = n-1; j >= 0; j --)
     {
-        printf("\n%d\n\n",vetor[i]);
+        printf("\n%d\n\n",vetor[j]);
         printf("\n");
     }
     return 0;
